@@ -40,7 +40,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
     color: white;
 
-    max-height: 150px;
+    min-height: 150px;
     padding-top: 40px;
 
     font-family: var(--fonte-especial);
