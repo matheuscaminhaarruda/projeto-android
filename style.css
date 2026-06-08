@@ -40,7 +40,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
     color: white;
 
-    height: 150px;
+    max-height: 150px;
     padding-top: 40px;
 
     font-family: var(--fonte-especial);
@@ -53,13 +53,13 @@ header h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.651);
 
     padding-bottom: 20px;
+    
 }
 
 header p {
     max-width: 550px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 10px 20px 10px;
 
     font-family: var(--fonte-padrao);
     font-weight: normal;
